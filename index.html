@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="./attachments/google-favicon.png" />
+    <!-- img trop grande -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Google</title>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="text-navlink" href="https://mail.google.com/mail/">Gmail</a>
+        <a class="text-navlink" href="https://www.google.fr/imghp?hl">Images</a>
+
+        <div id="hidden-links-div">
+          <ul>
+            <li>
+              <a href="#maps" class="app-hamburger-navlinks">
+                <div class="maps-app"></div>
+                <p>Maps</p>
+              </a>
+            </li>
+            <li>
+              <a href="#maps" class="app-hamburger-navlinks">
+                <div class="maps-app"></div>
+                <p>Maps</p>
+              </a>
+            </li>
+            <li>
+              <a href="#maps" class="app-hamburger-navlinks">
+                <div class="maps-app"></div>
+                <p>Maps</p>
+              </a>
+            </li>
+            <li>
+              <a href="#maps" class="app-hamburger-navlinks">
+                <div class="maps-app"></div>
+                <p>Maps</p>
+              </a>
+            </li>
+
+            <a href="#maps" class="app-hamburger-navlinks">
+              <div class="maps-app"></div>
+              <p>Maps</p>
+            </a>
+
+            <a href="#maps" class="app-hamburger-navlinks">
+              <div class="maps-app"></div>
+              <p>Maps</p>
+            </a>
+          </ul>
+        </div>
+
+        <div
+          id="hamburger-menu-div"
+          class="round-div info-bubble"
+          aria-label="Applications Google"
+        >
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <svg id="hamburger-menu-icon" focusable="false" viewBox="0 0 24 24">
+              <path
+                d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <div id="border-account-pic">
+          <div id="account-pic" class="round-div"></div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="main-central-div">
+      <div id="logo-div"></div>
+
+      <form id="search-form" action="https://google.com/search">
+        <input id="search-input" type="search" name="q" />
+
+        <div class="form-buttons-div">
+          <button type="submit">Rechercher Google</button>
+          <button type="submit">J'ai de la chance</button>
+        </div>
+      </form>
+
+      <div>
+        <p id="available-languages-text">
+          Google disponible en : <a href="">English</a>
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p id="country-name-text">France</p>
+      <hr />
+
+      <div class="footer-menu-wrapper">
+        <div class="footer-links-div">
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjdhZPYjKHzAhVl7eAKHdxwDLgQkNQCCA4&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-FR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw2FXL3-LVIL6HoBq0oweElA"
+            >&Agrave; propos</a
+          >
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjdhZPYjKHzAhVl7eAKHdxwDLgQkdQCCA8&url=https%3A%2F%2Fwww.google.com%2Fintl%2Ffr_fr%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw1aYP8_R8Sd__IBmabb3bt4"
+            >Publicité</a
+          >
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjdhZPYjKHzAhVl7eAKHdxwDLgQktQCCBA&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K"
+            >Entreprise</a
+          >
+          <a href="https://google.com/search/howsearchworks/?fg=1"
+            >Comment fonctionne la recherche Google ?</a
+          >
+        </div>
+
+        <div class="footer-links-div">
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjdhZPYjKHzAhVl7eAKHdxwDLgQiM8HCBE&url=https%3A%2F%2Fsustainability.google%2Fintl%2Ffr%2Fcommitments-europe%2F%3Futm_source%3Dgooglehpfooter%26utm_medium%3Dhousepromos%26utm_campaign%3Dbottom-footer%26utm_content%3D&usg=AOvVaw07E3dYsaD32mAGqQWPyki0"
+          >
+            <img
+              id="leaf-CO2-img"
+              src="./attachments/carbon-leaf.png"
+              alt="CO2 :"
+            />
+            Neutre en carbone depuis 2007</a
+          >
+        </div>
+
+        <div class="footer-links-div">
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjdhZPYjKHzAhVl7eAKHdxwDLgQ9NMDCBI&url=https%3A%2F%2Fsupport.google.com%2Fwebsearch%3Fp%3Dfr_consumer_info%26hl%3Dfr%26fg%3D1&usg=AOvVaw2Hh0QSd76Waw_vDJR_K2KN"
+            >Info consommateurs</a
+          >
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjdhZPYjKHzAhVl7eAKHdxwDLgQ8awCCBM&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Dfr%26fg%3D1&usg=AOvVaw1cyVXVfbTG33UksaKoWppf"
+            >Confidentialité</a
+          >
+          <a
+            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjdhZPYjKHzAhVl7eAKHdxwDLgQ8qwCCBQ&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Dfr%26fg%3D1&usg=AOvVaw1Er7CrTYe9jUU1w1E9jA_N"
+            >Conditions</a
+          >
+          <a href="">Paramètres</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
